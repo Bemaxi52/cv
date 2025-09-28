@@ -3,56 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <title>makson</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <img src="Megatron.jpg" width="100" alt="здесь мегатрон">
-    <h1>Быстрянце Максим</h1>
-    <p><em><strong>Мужчина</strong> в самом расцвете сил</em></p>
-    <p>Чемпион мира по кунфу</p>
-    <hr>
-    <h2>Мои достижения</h2>
-    <ul type='square'>
-        <li><a href="https://otvet.mail.ru/question/234137164"target='_blank'>click here</a></li>
-        <li>top 1 v dote</li>
-    </ul>
-    <h2>Мои хобби</h2>
-    <ol type="I">
-        <li>gym</li>
-        <li>eblanstvo</li>
-        <li>computer</li>
-    </ol>
-    <h2>Russiatable</h2>
-    <table>
-      <tr>
-        <th>Yes</th>
-        <th>Da</th>
-        <th>Tak</th>
-      </tr>
-      <tr>
-        <td>Не работал тогда</td>
-        <td>Не работаю сейчас</td>
-        <td>Не буду работать</td>
-      </tr>
-      <tr>
-        <td>работал тогда</td>
-        <td>работаю сейчас</td>
-        <td>буду работать</td>
-      </tr>
-    </table>
-    <h2>Ютуб жив</h2>
-    <a target = '_blank' href="youtube.html">He`s alive</a>
-    <hr>
-    <form action="/">
-      <label for="name">Введите своё имя</label>
-      <input type="text" id="name"  placeholder="Don`t click here">
-      <br>
-      <label for="email">Введите свой имейл</label>
-      <input type="text" id="email"  placeholder="Don`t click here">
-      <br>
-      <label for="cm">Сколько см</label>
-      <input type="number" id="cm"  placeholder="click only here">
-      <br>
-      <input type="submit" value="cool boy">
-    </form>
+    <div class='container'>
+      <div class="info">
+        <img src="Megatron.jpg" alt="здесь мегатрон"  class = "avatar"/>
+        <h1>Быстрянцев Максим</h1>
+        <p><strong>Мужчина</strong> в самом расцвете сил</p>
+        <p>Чемпион мира по кунфу</p>
+      </div>
+      <hr>
+      <div class="social">
+        <h2>Мои достижения</h2>
+        <ul type='square'>
+            <li><a href="https://otvet.mail.ru/question/234137164"target='_blank'>click here</a></li>
+            <li>top 1 v dote</li>
+        </ul>
+      </div>
+      <div class="card bg-yellow">
+          <h2>Мои хобби</h2>
+          <ol type="I">
+              <li>gym</li>
+              <li>eblanstvo</li>
+              <li>computer</li>
+          </ol>
+      </div>
+      <div class="card bg-green">
+        <h2>Russiatable</h2>
+        <table class="table">
+          <tr>
+            <th>Yes</th>
+            <th>Da</th>
+            <th>Tak</th>
+          </tr>
+          <tr>
+            <td>Не работал тогда</td>
+            <td>Не работаю сейчас</td>
+            <td>Не буду работать</td>
+          </tr>
+          <tr>
+            <td>работал тогда</td>
+            <td>работаю сейчас</td>
+            <td>буду работать</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card  bg-red">
+        <h2>Ютуб жив</h2>
+        <a target = '_blank' href="youtube.html">He`s alive</a>
+      </div>
+      <hr>
+      <div class="contact">
+        <h2>НЕ СВЯЗЫВАЙСЯ СО МНОЙ</h2>
+        <form action="/">
+          <label for="name">Введите своё имя</label>
+          <input type="text" id="name"  placeholder="Don`t click here">
+          <br>
+          <label for="email">Введите свой имейл</label>
+          <input type="text" id="email"  placeholder="Don`t click here">
+          <br>
+          <label for="cm">Сколько см</label>
+          <input type="number" id="cm"  placeholder="click only here">
+          <br>
+          <input type="submit" value="cool boy">
+        </form>
+      </div>
+    </div>
   </body>
 </html>
